@@ -1,0 +1,87 @@
+
+
+.bdy {
+    font-family:'Lucida Sans', sans-serif; 
+    background-color: #f2f2f2;  
+  }
+  
+  .container {
+    width: 220px;
+    margin: 50px auto;
+    background-color:red;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  } 
+  
+  #display {
+    width: 100%;
+    height: 60px;
+    text-align: right;
+    font-size: 24px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+  }
+  
+  input[type="button"] {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 18px;
+    background-color:aqua;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #d9d9d9;
+  }
+  
+  #equals {
+    background-color: #61bd4f;
+    color: #fff;
+  }
+  
+  #equals:hover {
+    background-color: #49852e;
+  }
+  
+  #clear {
+    background-color: #ff0000;
+    color: #fff;
+  }
+  
+  #clear:hover {
+    background-color: #cc0000;
+  }
+  .container > input[type="button"]:nth-child(12), 
+  .container > input[type="button"]:nth-child(13),
+  .container > input[type="button"]:nth-child(14),
+  .container > input[type="button"]:nth-child(15),
+  .container > input[type="button"]:nth-child(16) {
+    background-color: #00cc1b;
+    color: #fff;
+  }
+  .container > input[type="button"]:nth-child(12):hover,
+  .container > input[type="button"]:nth-child(13):hover,
+  .container > input[type="button"]:nth-child(14):hover,
+  .container > input[type="button"]:nth-child(15):hover,
+  .container > input[type="button"]:nth-child(16):hover {
+    background-color: #22a59a;
+  }
+  
+  @media only screen and (max-width: 400px){
+    .container{
+      width: 200px;
+      
+    }
+    .bdy{
+      background-color:deepskyblue;
+    }
+    
+  }
+  
